@@ -1,3 +1,14 @@
+/*
+Abbreviation Guide
+tr          = Tree
+rd          = Reindeer
+sc          = Santa clauss
+sm          = Snowman
+bot         = bottom
+refl        = reflection
+btn         = button
+pom         = pompom
+*/
 @-webkit-keyframes winking {
   0%, 48%, 53%, 100% {
     -webkit-transform: scaleY(1);
@@ -8,7 +19,6 @@
   52% {
     -webkit-transform: scaleY(0.005);
     transform: scaleY(0.005); } }
-
 @keyframes winking {
   0%, 48%, 53%, 100% {
     -webkit-transform: scaleY(1);
@@ -20,7 +30,7 @@
     -webkit-transform: scaleY(0.005);
     transform: scaleY(0.005); } }
 
-@-webkit-keyframes rightArmShake {
+@-webkit-keyframes right-arm-shake {
   0% {
     -webkit-transform: rotate(140deg);
     transform: rotate(140deg); }
@@ -31,7 +41,7 @@
     -webkit-transform: rotate(140deg);
     transform: rotate(140deg); } }
 
-@keyframes rightArmShake {
+@keyframes right-arm-shake {
   0% {
     -webkit-transform: rotate(140deg);
     transform: rotate(140deg); }
@@ -42,7 +52,7 @@
     -webkit-transform: rotate(140deg);
     transform: rotate(140deg); } }
 
-@-webkit-keyframes leftArmShake {
+@-webkit-keyframes left-arm-shake {
   0% {
     -webkit-transform: rotate(-140deg);
     transform: rotate(-140deg); }
@@ -53,7 +63,7 @@
     -webkit-transform: rotate(-140deg);
     transform: rotate(-140deg); } }
 
-@keyframes leftArmShake {
+@keyframes left-arm-shake {
   0% {
     -webkit-transform: rotate(-140deg);
     transform: rotate(-140deg); }
@@ -64,7 +74,7 @@
     -webkit-transform: rotate(-140deg);
     transform: rotate(-140deg); } }
 
-@-webkit-keyframes snowmanLeftArmShake {
+@-webkit-keyframes sm-left-arm-shake {
   0% {
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg); }
@@ -75,7 +85,7 @@
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg); } }
 
-@keyframes snowmanLeftArmShake {
+@keyframes sm-left-arm-shake {
   0% {
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg); }
@@ -86,7 +96,7 @@
     -webkit-transform: rotate(-25deg);
     transform: rotate(-25deg); } }
 
-@-webkit-keyframes snowmanRightArmShake {
+@-webkit-keyframes sm-right-arm-shake {
   0% {
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg); }
@@ -97,7 +107,7 @@
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg); } }
 
-@keyframes snowmanRightArmShake {
+@keyframes sm-right-arm-shake {
   0% {
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg); }
@@ -108,7 +118,7 @@
     -webkit-transform: rotate(25deg);
     transform: rotate(25deg); } }
 
-@-webkit-keyframes santaHo {
+@-webkit-keyframes sc-ho {
   0%, 100% {
     opacity: 0; }
   50% {
@@ -116,7 +126,7 @@
     -webkit-transform: scale(1.2);
     transform: scale(1.2); } }
 
-@keyframes santaHo {
+@keyframes sc-ho {
   0%, 100% {
     opacity: 0; }
   50% {
@@ -124,7 +134,7 @@
     -webkit-transform: scale(1.2);
     transform: scale(1.2); } }
 
-@-webkit-keyframes treeStarRotation {
+@-webkit-keyframes tr-star-rotate {
   from {
     -webkit-transform: rotate(0deg) scale(0.5);
     transform: rotate(0deg) scale(0.5); }
@@ -132,7 +142,7 @@
     -webkit-transform: rotate(360deg) scale(0.5);
     transform: rotate(360deg) scale(0.5); } }
 
-@keyframes treeStarRotation {
+@keyframes tr-star-rotate {
   from {
     -webkit-transform: rotate(0deg) scale(0.5);
     transform: rotate(0deg) scale(0.5); }
@@ -188,7 +198,7 @@
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0059b8, 0 0 35px #0059b8, 0 0 40px #0059b8, 0 0 50px #0059b8, 0 0 75px #0059b8; } }
 
-@-webkit-keyframes reindeerTailShake {
+@-webkit-keyframes rd-tail-shake {
   from {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
@@ -205,7 +215,7 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); } }
 
-@keyframes reindeerTailShake {
+@keyframes rd-tail-shake {
   from {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
@@ -262,24 +272,24 @@ body {
   .hohoho__ho1 {
     grid-column: 1/3;
     grid-row: 2/3;
-    -webkit-animation: santaHo 2s ease infinite alternate;
-    animation: santaHo 2s ease infinite alternate;
+    -webkit-animation: sc-ho 2s ease infinite alternate;
+    animation: sc-ho 2s ease infinite alternate;
     -webkit-transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     transform: rotate(10deg); }
   .hohoho__ho2 {
     grid-column: 3/5;
     grid-row: 1/3;
-    -webkit-animation: santaHo 2s ease 1s infinite alternate;
-    animation: santaHo 2s ease 1s infinite alternate;
+    -webkit-animation: sc-ho 2s ease 1s infinite alternate;
+    animation: sc-ho 2s ease 1s infinite alternate;
     -webkit-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg); }
   .hohoho__ho3 {
     grid-column: 5/7;
     grid-row: 2/3;
-    -webkit-animation: santaHo 2s ease 2s infinite alternate;
-    animation: santaHo 2s ease 2s infinite alternate;
+    -webkit-animation: sc-ho 2s ease 2s infinite alternate;
+    animation: sc-ho 2s ease 2s infinite alternate;
     -webkit-transform: rotate(15deg);
     -ms-transform: rotate(15deg);
     transform: rotate(15deg); }
@@ -356,7 +366,7 @@ body {
   -webkit-animation: neon3 4s linear 3s infinite;
   animation: neon3 4s linear 3s infinite; }
 
-.currentYear {
+.current-year {
   grid-column: 9/13;
   grid-row: 5/6;
   -webkit-transform: scale(2) translateY(-10px);
@@ -388,22 +398,16 @@ body {
   -webkit-clip-path: polygon(0 30%, 100% 30%, 100% 100%, 0 100%);
   clip-path: polygon(0 30%, 100% 30%, 100% 100%, 0 100%); }
 
-.tree {
+.tr {
   grid-column: 6/16;
   grid-row: 21/5;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(11, 1fr); }
-  .tree__trunk {
-    grid-column: 4/8;
-    grid-row: 10/12;
-    background-color: brown;
-    -webkit-clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
-    clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%); }
-  .tree__branch {
+  .tr__branch {
     -webkit-clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
     clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%); }
-    .tree__branch-1 {
+    .tr__branch-1 {
       background-color: #51b629;
       border-radius: 20px;
       border-bottom: 4px solid #306d18;
@@ -411,7 +415,7 @@ body {
       grid-row: 8/10;
       -webkit-clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%);
       clip-path: polygon(20% 0, 80% 0, 100% 100%, 0 100%); }
-    .tree__branch-2 {
+    .tr__branch-2 {
       background-color: #51b629;
       border-radius: 20px;
       border-bottom: 4px solid #306d18;
@@ -419,7 +423,7 @@ body {
       grid-row: 6/8;
       -webkit-clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
       clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%); }
-    .tree__branch-3 {
+    .tr__branch-3 {
       background-color: #51b629;
       border-radius: 20px;
       border-bottom: 4px solid #306d18;
@@ -427,7 +431,7 @@ body {
       grid-row: 4/6;
       -webkit-clip-path: polygon(33% 0, 66% 0, 100% 100%, 0 100%);
       clip-path: polygon(33% 0, 66% 0, 100% 100%, 0 100%); }
-    .tree__branch-4 {
+    .tr__branch-4 {
       background-color: #51b629;
       border-radius: 20px;
       border-bottom: 4px solid #306d18;
@@ -435,7 +439,7 @@ body {
       grid-row: 2/4;
       -webkit-clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%);
       clip-path: polygon(50% 0, 50% 0, 100% 100%, 0 100%); }
-  .tree__lamb1 {
+  .tr__lamb1 {
     grid-column: 7/8;
     grid-row: 3/4;
     z-index: 1;
@@ -450,21 +454,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb1-rope {
+    .tr__lamb1-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #e4406f; }
-    .tree__lamb1-top {
+    .tr__lamb1-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #e4406f; }
-    .tree__lamb1-bottom {
+    .tr__lamb1-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -472,7 +476,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #e4406f; }
-    .tree__lamb1-reflection {
+    .tr__lamb1-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -481,7 +485,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb2 {
+  .tr__lamb2 {
     grid-column: 4/5;
     grid-row: 3/4;
     z-index: 1;
@@ -496,21 +500,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb2-rope {
+    .tr__lamb2-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #503bff; }
-    .tree__lamb2-top {
+    .tr__lamb2-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #503bff; }
-    .tree__lamb2-bottom {
+    .tr__lamb2-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -518,7 +522,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #503bff; }
-    .tree__lamb2-reflection {
+    .tr__lamb2-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -527,7 +531,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb3 {
+  .tr__lamb3 {
     grid-column: 6/7;
     grid-row: 3/4;
     z-index: 1;
@@ -542,21 +546,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb3-rope {
+    .tr__lamb3-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #f7de1c; }
-    .tree__lamb3-top {
+    .tr__lamb3-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #f7de1c; }
-    .tree__lamb3-bottom {
+    .tr__lamb3-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -564,7 +568,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #f7de1c; }
-    .tree__lamb3-reflection {
+    .tr__lamb3-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -573,7 +577,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb4 {
+  .tr__lamb4 {
     grid-column: 5/6;
     grid-row: 3/4;
     z-index: 1;
@@ -588,21 +592,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb4-rope {
+    .tr__lamb4-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #FB7DEC; }
-    .tree__lamb4-top {
+    .tr__lamb4-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #FB7DEC; }
-    .tree__lamb4-bottom {
+    .tr__lamb4-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -610,7 +614,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #FB7DEC; }
-    .tree__lamb4-reflection {
+    .tr__lamb4-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -619,7 +623,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb5 {
+  .tr__lamb5 {
     grid-column: 6/7;
     grid-row: 2/3;
     z-index: 1;
@@ -634,21 +638,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb5-rope {
+    .tr__lamb5-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #f0f0f0; }
-    .tree__lamb5-top {
+    .tr__lamb5-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #f0f0f0; }
-    .tree__lamb5-bottom {
+    .tr__lamb5-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -656,7 +660,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #f0f0f0; }
-    .tree__lamb5-reflection {
+    .tr__lamb5-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -665,7 +669,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb6 {
+  .tr__lamb6 {
     grid-column: 5/6;
     grid-row: 2/3;
     z-index: 1;
@@ -680,21 +684,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb6-rope {
+    .tr__lamb6-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #ff5f5f; }
-    .tree__lamb6-top {
+    .tr__lamb6-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #ff5f5f; }
-    .tree__lamb6-bottom {
+    .tr__lamb6-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -702,7 +706,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #ff5f5f; }
-    .tree__lamb6-reflection {
+    .tr__lamb6-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -711,7 +715,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb7 {
+  .tr__lamb7 {
     grid-column: 7/8;
     grid-row: 4/5;
     z-index: 1;
@@ -726,21 +730,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb7-rope {
+    .tr__lamb7-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #fcbad3; }
-    .tree__lamb7-top {
+    .tr__lamb7-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #fcbad3; }
-    .tree__lamb7-bottom {
+    .tr__lamb7-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -748,7 +752,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #fcbad3; }
-    .tree__lamb7-reflection {
+    .tr__lamb7-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -757,7 +761,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb8 {
+  .tr__lamb8 {
     grid-column: 6/7;
     grid-row: 4/5;
     z-index: 1;
@@ -772,21 +776,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb8-rope {
+    .tr__lamb8-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #00b8a9; }
-    .tree__lamb8-top {
+    .tr__lamb8-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #00b8a9; }
-    .tree__lamb8-bottom {
+    .tr__lamb8-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -794,7 +798,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #00b8a9; }
-    .tree__lamb8-reflection {
+    .tr__lamb8-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -803,7 +807,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb9 {
+  .tr__lamb9 {
     grid-column: 5/6;
     grid-row: 4/5;
     z-index: 1;
@@ -818,21 +822,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb9-rope {
+    .tr__lamb9-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #f7de1c; }
-    .tree__lamb9-top {
+    .tr__lamb9-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #f7de1c; }
-    .tree__lamb9-bottom {
+    .tr__lamb9-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -840,7 +844,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #f7de1c; }
-    .tree__lamb9-reflection {
+    .tr__lamb9-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -849,7 +853,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb10 {
+  .tr__lamb10 {
     grid-column: 4/5;
     grid-row: 4/5;
     z-index: 1;
@@ -864,21 +868,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb10-rope {
+    .tr__lamb10-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #ff5f5f; }
-    .tree__lamb10-top {
+    .tr__lamb10-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #ff5f5f; }
-    .tree__lamb10-bottom {
+    .tr__lamb10-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -886,7 +890,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #ff5f5f; }
-    .tree__lamb10-reflection {
+    .tr__lamb10-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -895,7 +899,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb11 {
+  .tr__lamb11 {
     grid-column: 8/9;
     grid-row: 5/6;
     z-index: 1;
@@ -910,21 +914,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb11-rope {
+    .tr__lamb11-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #503bff; }
-    .tree__lamb11-top {
+    .tr__lamb11-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #503bff; }
-    .tree__lamb11-bottom {
+    .tr__lamb11-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -932,7 +936,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #503bff; }
-    .tree__lamb11-reflection {
+    .tr__lamb11-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -941,7 +945,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb12 {
+  .tr__lamb12 {
     grid-column: 7/8;
     grid-row: 5/6;
     z-index: 1;
@@ -956,21 +960,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb12-rope {
+    .tr__lamb12-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #f0f0f0; }
-    .tree__lamb12-top {
+    .tr__lamb12-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #f0f0f0; }
-    .tree__lamb12-bottom {
+    .tr__lamb12-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -978,7 +982,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #f0f0f0; }
-    .tree__lamb12-reflection {
+    .tr__lamb12-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -987,7 +991,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb13 {
+  .tr__lamb13 {
     grid-column: 6/7;
     grid-row: 5/6;
     z-index: 1;
@@ -1002,21 +1006,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb13-rope {
+    .tr__lamb13-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #e4406f; }
-    .tree__lamb13-top {
+    .tr__lamb13-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #e4406f; }
-    .tree__lamb13-bottom {
+    .tr__lamb13-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1024,7 +1028,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #e4406f; }
-    .tree__lamb13-reflection {
+    .tr__lamb13-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1033,7 +1037,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb14 {
+  .tr__lamb14 {
     grid-column: 5/6;
     grid-row: 5/6;
     z-index: 1;
@@ -1048,21 +1052,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb14-rope {
+    .tr__lamb14-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #FB7DEC; }
-    .tree__lamb14-top {
+    .tr__lamb14-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #FB7DEC; }
-    .tree__lamb14-bottom {
+    .tr__lamb14-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1070,7 +1074,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #FB7DEC; }
-    .tree__lamb14-reflection {
+    .tr__lamb14-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1079,7 +1083,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb15 {
+  .tr__lamb15 {
     grid-column: 4/5;
     grid-row: 5/6;
     z-index: 1;
@@ -1094,21 +1098,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb15-rope {
+    .tr__lamb15-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #00b8a9; }
-    .tree__lamb15-top {
+    .tr__lamb15-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #00b8a9; }
-    .tree__lamb15-bottom {
+    .tr__lamb15-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1116,7 +1120,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #00b8a9; }
-    .tree__lamb15-reflection {
+    .tr__lamb15-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1125,7 +1129,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb16 {
+  .tr__lamb16 {
     grid-column: 3/4;
     grid-row: 5/6;
     z-index: 1;
@@ -1140,21 +1144,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb16-rope {
+    .tr__lamb16-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #fcbad3; }
-    .tree__lamb16-top {
+    .tr__lamb16-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #fcbad3; }
-    .tree__lamb16-bottom {
+    .tr__lamb16-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1162,7 +1166,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #fcbad3; }
-    .tree__lamb16-reflection {
+    .tr__lamb16-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1171,7 +1175,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb17 {
+  .tr__lamb17 {
     grid-column: 3/4;
     grid-row: 6/7;
     z-index: 1;
@@ -1186,21 +1190,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb17-rope {
+    .tr__lamb17-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #503bff; }
-    .tree__lamb17-top {
+    .tr__lamb17-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #503bff; }
-    .tree__lamb17-bottom {
+    .tr__lamb17-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1208,7 +1212,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #503bff; }
-    .tree__lamb17-reflection {
+    .tr__lamb17-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1217,7 +1221,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb18 {
+  .tr__lamb18 {
     grid-column: 4/5;
     grid-row: 6/7;
     z-index: 1;
@@ -1232,21 +1236,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb18-rope {
+    .tr__lamb18-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #f7de1c; }
-    .tree__lamb18-top {
+    .tr__lamb18-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #f7de1c; }
-    .tree__lamb18-bottom {
+    .tr__lamb18-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1254,7 +1258,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #f7de1c; }
-    .tree__lamb18-reflection {
+    .tr__lamb18-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1263,7 +1267,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb19 {
+  .tr__lamb19 {
     grid-column: 7/8;
     grid-row: 6/7;
     z-index: 1;
@@ -1278,21 +1282,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb19-rope {
+    .tr__lamb19-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #ff5f5f; }
-    .tree__lamb19-top {
+    .tr__lamb19-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #ff5f5f; }
-    .tree__lamb19-bottom {
+    .tr__lamb19-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1300,7 +1304,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #ff5f5f; }
-    .tree__lamb19-reflection {
+    .tr__lamb19-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1309,7 +1313,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb20 {
+  .tr__lamb20 {
     grid-column: 8/9;
     grid-row: 6/7;
     z-index: 1;
@@ -1324,21 +1328,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb20-rope {
+    .tr__lamb20-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #FB7DEC; }
-    .tree__lamb20-top {
+    .tr__lamb20-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #FB7DEC; }
-    .tree__lamb20-bottom {
+    .tr__lamb20-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1346,7 +1350,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #FB7DEC; }
-    .tree__lamb20-reflection {
+    .tr__lamb20-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1355,7 +1359,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb21 {
+  .tr__lamb21 {
     grid-column: 8/9;
     grid-row: 7/8;
     z-index: 1;
@@ -1370,21 +1374,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb21-rope {
+    .tr__lamb21-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #e4406f; }
-    .tree__lamb21-top {
+    .tr__lamb21-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #e4406f; }
-    .tree__lamb21-bottom {
+    .tr__lamb21-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1392,7 +1396,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #e4406f; }
-    .tree__lamb21-reflection {
+    .tr__lamb21-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1401,7 +1405,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb22 {
+  .tr__lamb22 {
     grid-column: 3/4;
     grid-row: 7/8;
     z-index: 1;
@@ -1416,21 +1420,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb22-rope {
+    .tr__lamb22-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #f7de1c; }
-    .tree__lamb22-top {
+    .tr__lamb22-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #f7de1c; }
-    .tree__lamb22-bottom {
+    .tr__lamb22-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1438,7 +1442,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #f7de1c; }
-    .tree__lamb22-reflection {
+    .tr__lamb22-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1447,7 +1451,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb23 {
+  .tr__lamb23 {
     grid-column: 2/3;
     grid-row: 8/9;
     z-index: 1;
@@ -1462,21 +1466,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb23-rope {
+    .tr__lamb23-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #ff5f5f; }
-    .tree__lamb23-top {
+    .tr__lamb23-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #ff5f5f; }
-    .tree__lamb23-bottom {
+    .tr__lamb23-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1484,7 +1488,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #ff5f5f; }
-    .tree__lamb23-reflection {
+    .tr__lamb23-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1493,7 +1497,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb24 {
+  .tr__lamb24 {
     grid-column: 2/3;
     grid-row: 9/10;
     z-index: 1;
@@ -1508,21 +1512,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb24-rope {
+    .tr__lamb24-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #FB7DEC; }
-    .tree__lamb24-top {
+    .tr__lamb24-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #FB7DEC; }
-    .tree__lamb24-bottom {
+    .tr__lamb24-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1530,7 +1534,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #FB7DEC; }
-    .tree__lamb24-reflection {
+    .tr__lamb24-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1539,7 +1543,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb25 {
+  .tr__lamb25 {
     grid-column: 8/9;
     grid-row: 8/9;
     z-index: 1;
@@ -1554,21 +1558,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb25-rope {
+    .tr__lamb25-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #503bff; }
-    .tree__lamb25-top {
+    .tr__lamb25-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #503bff; }
-    .tree__lamb25-bottom {
+    .tr__lamb25-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1576,7 +1580,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #503bff; }
-    .tree__lamb25-reflection {
+    .tr__lamb25-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1585,7 +1589,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__lamb26 {
+  .tr__lamb26 {
     grid-column: 9/10;
     grid-row: 9/10;
     z-index: 1;
@@ -1600,21 +1604,21 @@ body {
     transform-origin: top center;
     position: relative;
     top: 40px; }
-    .tree__lamb26-rope {
+    .tr__lamb26-rope {
       grid-column: 1/2;
       grid-row: 1/2;
       -webkit-transform: scaleX(0.12);
       -ms-transform: scaleX(0.12);
       transform: scaleX(0.12);
       background-color: #fcbad3; }
-    .tree__lamb26-top {
+    .tr__lamb26-top {
       grid-column: 1/2;
       grid-row: 2/3;
       -webkit-transform: scale(0.4, 0.5) translateY(-11px);
       -ms-transform: scale(0.4, 0.5) translateY(-11px);
       transform: scale(0.4, 0.5) translateY(-11px);
       background-color: #fcbad3; }
-    .tree__lamb26-bottom {
+    .tr__lamb26-bot {
       grid-column: 1/2;
       grid-row: 3/4;
       border-radius: 50%;
@@ -1622,7 +1626,7 @@ body {
       -ms-transform: scale(1.5, 2.1);
       transform: scale(1.5, 2.1);
       background-color: #fcbad3; }
-    .tree__lamb26-reflection {
+    .tr__lamb26-refl {
       grid-column: 1/2;
       grid-row: 3/4;
       background-color: rgba(255, 250, 250, 0.7);
@@ -1631,7 +1635,7 @@ body {
       -webkit-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       -ms-transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px);
       transform: scale(0.7, 0.6) rotate(45deg) translate(-4px, -15px); }
-  .tree__topStar {
+  .tr__star {
     background-color: yellow;
     grid-column: 4/8;
     grid-row: 1/3;
@@ -1644,10 +1648,10 @@ body {
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
     transform-origin: center center;
-    -webkit-animation: treeStarRotation 4s linear  infinite;
-    animation: treeStarRotation 4s linear  infinite; }
+    -webkit-animation: tr-star-rotate 4s linear  infinite;
+    animation: tr-star-rotate 4s linear  infinite; }
 
-.snowman {
+.sm {
   grid-column: -15/-9;
   grid-row: 13/-1;
   z-index: 1;
@@ -1657,19 +1661,19 @@ body {
   -webkit-transform: translateX(25px);
   -ms-transform: translateX(25px);
   transform: translateX(25px); }
-  .snowman__hatTop {
+  .sm__hat-top {
     background-color: #2b303a;
     grid-column: 4/8;
     grid-row: 1/3;
     z-index: 1; }
-  .snowman__hatBottom {
+  .sm__hat-bot {
     background-color: #2b303a;
     grid-column: 3/9;
     grid-row: 3/4;
     height: 50%;
     z-index: 1;
     border-radius: 10px; }
-  .snowman__eyes {
+  .sm__eyes {
     grid-column: 4/8;
     grid-row: 4/5;
     display: -webkit-box;
@@ -1680,7 +1684,7 @@ body {
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end; }
-    .snowman__eyes__leftEye {
+    .sm__eyes__left {
       background-color: black;
       width: 20px;
       height: 20px;
@@ -1697,7 +1701,7 @@ body {
       align-items: center;
       -webkit-animation: winking 5s ease 2s infinite;
       animation: winking 5s ease 2s infinite; }
-    .snowman__eyes__rightEye {
+    .sm__eyes__right {
       background-color: black;
       width: 20px;
       height: 20px;
@@ -1714,7 +1718,7 @@ body {
       align-items: center;
       -webkit-animation: winking 5s ease 2s infinite;
       animation: winking 5s ease 2s infinite; }
-  .snowman__carrot {
+  .sm__carrot {
     background-color: orangered;
     grid-column: 5/7;
     grid-row: 5/7;
@@ -1723,7 +1727,7 @@ body {
     transform: rotate(-80deg) translateX(10px) translateY(10px);
     -webkit-clip-path: polygon(30% 10%, 70% 10%, 50% 70%);
     clip-path: polygon(30% 10%, 70% 10%, 50% 70%); }
-  .snowman__mounth {
+  .sm__mounth {
     grid-column: 4/8;
     grid-row: 6/7;
     display: -webkit-box;
@@ -1735,38 +1739,38 @@ body {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start; }
-    .snowman__mounth__coal-1 {
+    .sm__mounth-coal1 {
       background-color: black;
       width: 8px;
       height: 8px;
       border-radius: 50%; }
-    .snowman__mounth__coal-2 {
+    .sm__mounth-coal2 {
       background-color: black;
       width: 8px;
       height: 8px;
       border-radius: 50%;
       position: relative;
       top: 7px; }
-    .snowman__mounth__coal-3 {
+    .sm__mounth-coal3 {
       background-color: black;
       width: 8px;
       height: 8px;
       border-radius: 50%;
       position: relative;
       top: 10px; }
-    .snowman__mounth__coal-4 {
+    .sm__mounth-coal4 {
       background-color: black;
       width: 8px;
       height: 8px;
       border-radius: 50%;
       position: relative;
       top: 7px; }
-    .snowman__mounth__coal-5 {
+    .sm__mounth-coal5 {
       background-color: black;
       width: 8px;
       height: 8px;
       border-radius: 50%; }
-  .snowman__rightArm {
+  .sm__arm-right {
     background-color: #84382a;
     grid-row: 4/10;
     -webkit-transform-origin: bottom center;
@@ -1781,9 +1785,9 @@ body {
     -webkit-transform: rotate(-25deg);
     -ms-transform: rotate(-25deg);
     transform: rotate(-25deg);
-    -webkit-animation: snowmanLeftArmShake 1s ease alternate infinite;
-    animation: snowmanLeftArmShake 1s ease alternate infinite; }
-    .snowman__rightArm-smallPart {
+    -webkit-animation: sm-left-arm-shake 1s ease alternate infinite;
+    animation: sm-left-arm-shake 1s ease alternate infinite; }
+    .sm__arm-right-small {
       -webkit-transform-origin: bottom center;
       -ms-transform-origin: bottom center;
       transform-origin: bottom center;
@@ -1794,7 +1798,7 @@ body {
       -webkit-transform: rotate(25deg);
       -ms-transform: rotate(25deg);
       transform: rotate(25deg); }
-  .snowman__leftArm {
+  .sm__arm-left {
     background-color: #84382a;
     grid-row: 4/10;
     -webkit-transform-origin: bottom center;
@@ -1809,9 +1813,9 @@ body {
     -webkit-transform: rotate(25deg);
     -ms-transform: rotate(25deg);
     transform: rotate(25deg);
-    -webkit-animation: snowmanRightArmShake 1s ease alternate infinite;
-    animation: snowmanRightArmShake 1s ease alternate infinite; }
-    .snowman__leftArm-smallPart {
+    -webkit-animation: sm-right-arm-shake 1s ease alternate infinite;
+    animation: sm-right-arm-shake 1s ease alternate infinite; }
+    .sm__arm-left-small {
       -webkit-transform-origin: bottom center;
       -ms-transform-origin: bottom center;
       transform-origin: bottom center;
@@ -1822,22 +1826,22 @@ body {
       -webkit-transform: rotate(-25deg);
       -ms-transform: rotate(-25deg);
       transform: rotate(-25deg); }
-  .snowman__bodyTop {
+  .sm__body-top {
     background-color: snow;
     border-radius: 50%;
     grid-column: 3/9;
     grid-row: 3/8; }
-  .snowman__bodyBottom {
+  .sm__body-bot {
     background-color: snow;
     border-radius: 50%;
     grid-column: 1/-1;
     grid-row: 7/-1; }
-  .snowman__scarfTop {
+  .sm__scarf-top {
     background-color: #e63c33;
     grid-column: 3/9;
     grid-row: 7/8;
     border-radius: 10px; }
-  .snowman__scarfBottom {
+  .sm__scarf-bot {
     background-color: #e63c33;
     grid-column: 6/8;
     grid-row: 8/10;
@@ -1846,7 +1850,7 @@ body {
     -webkit-transform: rotate(-20deg) translateY(-15px) translateX(15px);
     -ms-transform: rotate(-20deg) translateY(-15px) translateX(15px);
     transform: rotate(-20deg) translateY(-15px) translateX(15px); }
-  .snowman__buttons {
+  .sm__btn {
     grid-column: 5/7;
     grid-row: 10/13;
     display: -webkit-box;
@@ -1862,23 +1866,23 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    .snowman__buttons__buttonTop {
+    .sm__btn-top {
       width: 15px;
       height: 15px;
       background-color: black;
       border-radius: 50%; }
-    .snowman__buttons__buttonMid {
+    .sm__btn-mid {
       width: 15px;
       height: 15px;
       background-color: black;
       border-radius: 50%; }
-    .snowman__buttons__buttonBottom {
+    .sm__btn-bot {
       width: 15px;
       height: 15px;
       background-color: black;
       border-radius: 50%; }
 
-.santa {
+.sc {
   grid-column: 14/20;
   grid-row: 12/21;
   z-index: 10;
@@ -1888,13 +1892,13 @@ body {
   -webkit-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   transform: translateY(-5px); }
-  .santa__head {
+  .sc__head {
     grid-column: 4/10;
     grid-row: 1/9;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(8, 1fr); }
-    .santa__head-eyes {
+    .sc__head-eyes {
       grid-column: 2/6;
       grid-row: 4/6;
       background-color: #F0DDD2;
@@ -1912,21 +1916,21 @@ body {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      .santa__head-eyes-right {
+      .sc__head-eyes-right {
         background-color: black;
         width: 10px;
         height: 15px;
         border-radius: 50%;
         -webkit-animation: winking 5s ease infinite;
         animation: winking 5s ease infinite; }
-      .santa__head-eyes-left {
+      .sc__head-eyes-left {
         background-color: black;
         width: 10px;
         height: 15px;
         border-radius: 50%;
         -webkit-animation: winking 5s ease infinite;
         animation: winking 5s ease infinite; }
-    .santa__head-nose {
+    .sc__head-nose {
       grid-column: 3/4;
       grid-row: 5/6;
       background-color: #f0c9b3;
@@ -1935,7 +1939,7 @@ body {
       -webkit-transform: translate(8px, 7px);
       -ms-transform: translate(8px, 7px);
       transform: translate(8px, 7px); }
-    .santa__head-mounth {
+    .sc__head-mounth {
       grid-column: 3/5;
       grid-row: 7/8;
       background-color: #A0051F;
@@ -1945,7 +1949,7 @@ body {
       -webkit-transform: scaleY(0.7);
       -ms-transform: scaleY(0.7);
       transform: scaleY(0.7); }
-    .santa__head-beard {
+    .sc__head-beard {
       grid-column: 1/-1;
       grid-row: 4/9;
       background-color: snow;
@@ -1954,7 +1958,7 @@ body {
       -ms-transform: scaleX(0.85);
       transform: scaleX(0.85);
       z-index: 1; }
-    .santa__head-hatTop {
+    .sc__head-hat-top {
       grid-column: 6/7;
       grid-row: 5/6;
       background-color: snow;
@@ -1963,7 +1967,7 @@ body {
       -ms-transform: scale(1.5) translateX(6px);
       transform: scale(1.5) translateX(6px);
       z-index: 1; }
-    .santa__head-hatMid {
+    .sc__head-hat-mid {
       grid-column: 1/7;
       grid-row: 1/6;
       background-color: #ED2043;
@@ -1971,13 +1975,13 @@ body {
       -webkit-transform: translateX(7px);
       -ms-transform: translateX(7px);
       transform: translateX(7px); }
-    .santa__head-hatBottom {
+    .sc__head-hat-bot {
       grid-column: 1/7;
       grid-row: 3/4;
       background-color: snow;
       border-radius: 20px;
       z-index: 1; }
-  .santa__body {
+  .sc__body {
     grid-row: 7/19;
     grid-column: 2/12;
     background-color: #ED2043;
@@ -1987,7 +1991,7 @@ body {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(12, 1fr); }
-    .santa__body-belt {
+    .sc__body-belt {
       grid-column: 1/12;
       grid-row: 7/9;
       background-color: black;
@@ -2003,7 +2007,7 @@ body {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      .santa__body-belt-buckle {
+      .sc__body-belt-buckle {
         width: 30px;
         height: 20px;
         border: 5px solid #d4af37;
@@ -2016,11 +2020,11 @@ body {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center; }
-        .santa__body-belt-buckle-in {
+        .sc__body-belt-buckle-in {
           width: 15px;
           height: 5px;
           background-color: #d4af37; }
-    .santa__body-buttons {
+    .sc__body-btn {
       grid-column: 5/7;
       grid-row: 3/7;
       display: -webkit-box;
@@ -2035,22 +2039,22 @@ body {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; }
-      .santa__body-buttons-1 {
+      .sc__body-btn1 {
         width: 8px;
         height: 8px;
         border-radius: 50%;
         background-color: white; }
-      .santa__body-buttons-2 {
+      .sc__body-btn2 {
         width: 8px;
         height: 8px;
         border-radius: 50%;
         background-color: white; }
-      .santa__body-buttons-3 {
+      .sc__body-btn3 {
         width: 8px;
         height: 8px;
         border-radius: 50%;
         background-color: white; }
-  .santa__rightArm {
+  .sc__arm-right {
     grid-column: 3/5;
     grid-row: 9/17;
     -webkit-transform-origin: top center;
@@ -2065,13 +2069,13 @@ body {
     -webkit-transform: translateX(5px) rotate(140deg);
     -ms-transform: translateX(5px) rotate(140deg);
     transform: translateX(5px) rotate(140deg);
-    -webkit-animation: rightArmShake 1s ease alternate infinite;
-    animation: rightArmShake 1s ease alternate infinite; }
-    .santa__rightArm-arm {
+    -webkit-animation: right-arm-shake 1s ease alternate infinite;
+    animation: right-arm-shake 1s ease alternate infinite; }
+    .sc__arm-right-arm {
       grid-column: 1/3;
       grid-row: 1/7;
       background-color: #ED2043; }
-    .santa__rightArm-pompom {
+    .sc__arm-right-pom {
       grid-column: 1/3;
       grid-row: 7/8;
       background-color: snow;
@@ -2079,7 +2083,7 @@ body {
       -ms-transform: scale(1.2);
       transform: scale(1.2);
       border-radius: 10px; }
-    .santa__rightArm-hand {
+    .sc__arm-right-hand {
       grid-column: 1/3;
       grid-row: 8/10;
       background-color: black;
@@ -2088,7 +2092,7 @@ body {
       -webkit-transform: scaleX(0.8);
       -ms-transform: scaleX(0.8);
       transform: scaleX(0.8); }
-    .santa__rightArm-thumb {
+    .sc__arm-right-thumb {
       grid-column: 1/2;
       grid-row: 8/10;
       background-color: black;
@@ -2097,7 +2101,7 @@ body {
       -webkit-transform: rotate(45deg) translateX(-5px) scale(0.7);
       -ms-transform: rotate(45deg) translateX(-5px) scale(0.7);
       transform: rotate(45deg) translateX(-5px) scale(0.7); }
-  .santa__leftArm {
+  .sc__arm-left {
     grid-column: 9/11;
     grid-row: 9/17;
     -webkit-transform-origin: top center;
@@ -2112,13 +2116,13 @@ body {
     -webkit-transform: translateX(-5px) rotate(-140deg);
     -ms-transform: translateX(-5px) rotate(-140deg);
     transform: translateX(-5px) rotate(-140deg);
-    -webkit-animation: leftArmShake 1s ease alternate infinite;
-    animation: leftArmShake 1s ease alternate infinite; }
-    .santa__leftArm-arm {
+    -webkit-animation: left-arm-shake 1s ease alternate infinite;
+    animation: left-arm-shake 1s ease alternate infinite; }
+    .sc__arm-left-arm {
       grid-column: 1/3;
       grid-row: 1/7;
       background-color: #ED2043; }
-    .santa__leftArm-pompom {
+    .sc__arm-left-pom {
       grid-column: 1/3;
       grid-row: 7/8;
       background-color: snow;
@@ -2126,7 +2130,7 @@ body {
       -ms-transform: scale(1.2);
       transform: scale(1.2);
       border-radius: 10px; }
-    .santa__leftArm-hand {
+    .sc__arm-left-hand {
       grid-column: 1/3;
       grid-row: 8/10;
       background-color: black;
@@ -2135,7 +2139,7 @@ body {
       -webkit-transform: scaleX(0.8);
       -ms-transform: scaleX(0.8);
       transform: scaleX(0.8); }
-    .santa__leftArm-thumb {
+    .sc__arm-left-thumb {
       grid-column: 2/3;
       grid-row: 8/10;
       background-color: black;
@@ -2144,23 +2148,23 @@ body {
       -webkit-transform: rotate(-45deg) translateX(5px) scale(0.7);
       -ms-transform: rotate(-45deg) translateX(5px) scale(0.7);
       transform: rotate(-45deg) translateX(5px) scale(0.7); }
-  .santa__legs {
+  .sc__legs {
     grid-column: 4/10;
     grid-row: 17/-1;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(9, 1fr); }
-    .santa__legs-right {
+    .sc__legs-right {
       grid-column: 1/3;
       grid-row: 1/-1;
       background-color: #ED2043;
       z-index: -2; }
-    .santa__legs-left {
+    .sc__legs-left {
       grid-column: 5/7;
       grid-row: 1/-1;
       background-color: #ED2043;
       z-index: -2; }
-    .santa__legs-shoeRight {
+    .sc__legs-shoe-right {
       grid-column: 1/3;
       grid-row: 7/-1;
       background-color: black;
@@ -2168,7 +2172,7 @@ body {
       -ms-transform: scaleX(1.1);
       transform: scaleX(1.1);
       border-radius: 20%; }
-    .santa__legs-shoeLeft {
+    .sc__legs-shoe-left {
       grid-column: 5/7;
       grid-row: 7/-1;
       background-color: black;
@@ -2176,7 +2180,7 @@ body {
       -ms-transform: scaleX(1.1);
       transform: scaleX(1.1);
       border-radius: 20%; }
-    .santa__legs-pompomRight {
+    .sc__legs-pom-right {
       grid-column: 1/3;
       grid-row: 6/7;
       background-color: snow;
@@ -2184,7 +2188,7 @@ body {
       -ms-transform: scaleX(1.2) translateY(6px);
       transform: scaleX(1.2) translateY(6px);
       border-radius: 10px; }
-    .santa__legs-pompomLeft {
+    .sc__legs-pom-left {
       grid-column: 5/7;
       grid-row: 6/7;
       background-color: snow;
@@ -2193,277 +2197,20 @@ body {
       transform: scaleX(1.2) translateY(6px);
       border-radius: 10px; }
 
-.reindeer {
+.rd {
   grid-column: 1/9;
   grid-row: 11/-1;
   z-index: 1;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(22, 1fr); }
-  .reindeer__body {
+  .rd__body {
     background-color: #865d27;
     grid-column: -13/-5;
     grid-row: 6/18;
     border-radius: 50px;
     z-index: -1; }
-  .reindeer__chin {
-    background-color: #F7EFE6;
-    grid-column: 6/12;
-    grid-row: 7/9;
-    border-radius: 60%;
-    -webkit-transform: scaleY(1.2) scaleX(0.9) translateY(-25%);
-    -ms-transform: scaleY(1.2) scaleX(0.9) translateY(-25%);
-    transform: scaleY(1.2) scaleX(0.9) translateY(-25%); }
-  .reindeer__mounthLeftTop {
-    grid-row: 7/8;
-    border-radius: 50%;
-    -webkit-transform: scaleY(0.7) translateY(5px);
-    -ms-transform: scaleY(0.7) translateY(5px);
-    transform: scaleY(0.7) translateY(5px);
-    z-index: 5;
-    grid-column: 7/9;
-    background-color: #F7EFE6;
-    z-index: 6;
-    -webkit-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    transform: translateY(-2px); }
-  .reindeer__mounthLeftBottom {
-    grid-row: 7/8;
-    border-radius: 50%;
-    -webkit-transform: scaleY(0.7) translateY(5px);
-    -ms-transform: scaleY(0.7) translateY(5px);
-    transform: scaleY(0.7) translateY(5px);
-    z-index: 5;
-    grid-column: 7/9;
-    background-color: black; }
-  .reindeer__mounthMid {
-    background-color: black;
-    grid-column: 8/9;
-    grid-row: 7/8;
-    z-index: 7;
-    -webkit-transform: scale(0.3, 0.5) translateX(25px);
-    -ms-transform: scale(0.3, 0.5) translateX(25px);
-    transform: scale(0.3, 0.5) translateX(25px);
-    border-radius: 50%; }
-  .reindeer__mounthRightTop {
-    grid-row: 7/8;
-    border-radius: 50%;
-    -webkit-transform: scaleY(0.7) translateY(5px);
-    -ms-transform: scaleY(0.7) translateY(5px);
-    transform: scaleY(0.7) translateY(5px);
-    z-index: 5;
-    grid-column: 9/11;
-    background-color: #F7EFE6;
-    z-index: 6;
-    -webkit-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    transform: translateY(-2px); }
-  .reindeer__mounthRightBottom {
-    grid-row: 7/8;
-    border-radius: 50%;
-    -webkit-transform: scaleY(0.7) translateY(5px);
-    -ms-transform: scaleY(0.7) translateY(5px);
-    transform: scaleY(0.7) translateY(5px);
-    z-index: 5;
-    grid-column: 9/11;
-    background-color: black; }
-  .reindeer__chest {
-    background-color: #ECC182;
-    grid-column: 6/12;
-    grid-row: 9/14;
-    border-radius: 70% 70% 100% 100%; }
-    .reindeer__chest-in {
-      background-color: #d8934f;
-      grid-column: 6/12;
-      grid-row: 9/14;
-      border-radius: 70% 70% 100% 100%;
-      -webkit-transform: scale(0.7, 0.5) translateY(-30%);
-      -ms-transform: scale(0.7, 0.5) translateY(-30%);
-      transform: scale(0.7, 0.5) translateY(-30%); }
-  .reindeer__tail {
-    z-index: -3;
-    grid-column: 6/7;
-    grid-row: 15/18;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transform-origin: top center;
-    -ms-transform-origin: top center;
-    transform-origin: top center;
-    -webkit-animation: reindeerTailShake 3s linear infinite;
-    animation: reindeerTailShake 3s linear infinite;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr); }
-    .reindeer__tail-out {
-      grid-column: 1/2;
-      grid-row: 1/4;
-      background-color: #686262;
-      border-radius: 0 0 70% 70%; }
-    .reindeer__tail-in {
-      grid-column: 1/2;
-      grid-row: 1/4;
-      background-color: #d8934f;
-      border-radius: 0 0 70% 70%;
-      -webkit-transform: scale(0.55, 0.85);
-      -ms-transform: scale(0.55, 0.85);
-      transform: scale(0.55, 0.85);
-      z-index: 1; }
-  .reindeer__head {
-    background-color: #ECC182;
-    grid-column: 7/11;
-    grid-row: 4/8;
-    border-radius: 45%; }
-  .reindeer__nose {
-    border-radius: 50%;
-    grid-row: 6/7;
-    grid-column: 8/10;
-    background-color: #E2252E;
-    z-index: 2; }
-    .reindeer__nose-in {
-      border-radius: 50%;
-      grid-row: 6/7;
-      grid-column: 8/10;
-      background-color: rgba(255, 250, 250, 0.7);
-      z-index: 3;
-      -webkit-transform: scale(0.4) translate(10px, -5px);
-      -ms-transform: scale(0.4) translate(10px, -5px);
-      transform: scale(0.4) translate(10px, -5px); }
-  .reindeer__rightEye {
-    background-color: black;
-    border-radius: 45%;
-    grid-row: 5/6;
-    -webkit-animation: winking 5s ease 4s infinite;
-    animation: winking 5s ease 4s infinite;
-    grid-column: 10/11;
-    -webkit-transform: translateX(-7px) scaleX(0.6);
-    -ms-transform: translateX(-7px) scaleX(0.6);
-    transform: translateX(-7px) scaleX(0.6); }
-  .reindeer__leftEye {
-    background-color: black;
-    border-radius: 45%;
-    grid-row: 5/6;
-    -webkit-animation: winking 5s ease 4s infinite;
-    animation: winking 5s ease 4s infinite;
-    grid-column: 7/8;
-    -webkit-transform: translateX(7px) scaleX(0.6);
-    -ms-transform: translateX(7px) scaleX(0.6);
-    transform: translateX(7px) scaleX(0.6); }
-  .reindeer__rightEar {
-    background-color: #d8934f;
-    z-index: -1;
-    border-radius: 30%;
-    grid-column: 10/11;
-    grid-row: 4/5;
-    -webkit-transform: rotate(45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
-    -ms-transform: rotate(45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
-    transform: rotate(45deg) translateY(-5px) scaleX(1.2) scaleY(1.2); }
-    .reindeer__rightEar-in {
-      background-color: #B28048;
-      border-radius: 30%;
-      z-index: -1;
-      grid-column: 10/11;
-      grid-row: 4/5;
-      -webkit-transform: rotate(45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
-      -ms-transform: rotate(45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
-      transform: rotate(45deg) translateY(-5px) scaleX(0.7) scaleY(0.7); }
-  .reindeer__leftEar {
-    background-color: #d8934f;
-    z-index: -1;
-    border-radius: 30%;
-    grid-column: 7/8;
-    grid-row: 4/5;
-    -webkit-transform: rotate(-45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
-    -ms-transform: rotate(-45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
-    transform: rotate(-45deg) translateY(-5px) scaleX(1.2) scaleY(1.2); }
-    .reindeer__leftEar-in {
-      background-color: #B28048;
-      border-radius: 30%;
-      z-index: -1;
-      grid-column: 7/8;
-      grid-row: 4/5;
-      -webkit-transform: rotate(-45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
-      -ms-transform: rotate(-45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
-      transform: rotate(-45deg) translateY(-5px) scaleX(0.7) scaleY(0.7); }
-  .reindeer__rightArm {
-    grid-column: 12/13;
-    grid-row: 8/13;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    -webkit-transform-origin: top center;
-    -ms-transform-origin: top center;
-    transform-origin: top center;
-    -webkit-transform: rotate(-140deg);
-    -ms-transform: rotate(-140deg);
-    transform: rotate(-140deg);
-    -webkit-animation: leftArmShake 1s ease alternate infinite;
-    animation: leftArmShake 1s ease alternate infinite; }
-    .reindeer__rightArm-arm {
-      background-color: #3A2313;
-      -webkit-transform: scaleX(0.8);
-      -ms-transform: scaleX(0.8);
-      transform: scaleX(0.8);
-      border-radius: 10px;
-      grid-column: 1/2;
-      grid-row: 1/-1;
-      z-index: -1; }
-    .reindeer__rightArm-hoof {
-      background-color: #795526;
-      grid-column: 1/2;
-      grid-row: 5/-1;
-      z-index: 10;
-      border-radius: 20%;
-      -webkit-clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0);
-      clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0); }
-  .reindeer__leftArm {
-    grid-column: 5/6;
-    grid-row: 8/13;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    -webkit-transform-origin: top center;
-    -ms-transform-origin: top center;
-    transform-origin: top center;
-    -webkit-transform: rotate(140deg);
-    -ms-transform: rotate(140deg);
-    transform: rotate(140deg);
-    -webkit-animation: rightArmShake 1s ease alternate infinite;
-    animation: rightArmShake 1s ease alternate infinite; }
-    .reindeer__leftArm-arm {
-      background-color: #3A2313;
-      -webkit-transform: scaleX(0.8);
-      -ms-transform: scaleX(0.8);
-      transform: scaleX(0.8);
-      border-radius: 10px;
-      grid-column: 1/2;
-      grid-row: 1/-1;
-      z-index: -1; }
-    .reindeer__leftArm-hoof {
-      background-color: #795526;
-      grid-column: 1/2;
-      grid-row: 5/-1;
-      z-index: 10;
-      border-radius: 20%;
-      -webkit-clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0);
-      clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0); }
-  .reindeer__rightLeg {
-    background-color: #3A2313;
-    -webkit-transform: scaleX(0.8);
-    -ms-transform: scaleX(0.8);
-    transform: scaleX(0.8);
-    border-radius: 10px;
-    grid-column: 7/8;
-    grid-row: 17/22; }
-  .reindeer__leftLeg {
-    background-color: #3A2313;
-    -webkit-transform: scaleX(0.8);
-    -ms-transform: scaleX(0.8);
-    transform: scaleX(0.8);
-    border-radius: 10px;
-    grid-column: 10/11;
-    grid-row: 17/22; }
-  .reindeer__leftHorn {
+  .rd__horn-left {
     grid-row: 4/5;
     background-color: #2e1b14;
     z-index: -1;
@@ -2478,7 +2225,7 @@ body {
     -ms-transform-origin: left center;
     transform-origin: left center;
     border-radius: 0 70% 70% 0; }
-    .reindeer__leftHorn-smallPart1 {
+    .rd__horn-left-part1 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: left center;
@@ -2489,7 +2236,7 @@ body {
       -webkit-transform: rotate(-60deg) scaleY(0.5);
       -ms-transform: rotate(-60deg) scaleY(0.5);
       transform: rotate(-60deg) scaleY(0.5); }
-    .reindeer__leftHorn-smallPart2 {
+    .rd__horn-left-part2 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: left center;
@@ -2500,7 +2247,7 @@ body {
       -webkit-transform: rotate(-50deg) scaleY(0.5) scaleX(1.1);
       -ms-transform: rotate(-50deg) scaleY(0.5) scaleX(1.1);
       transform: rotate(-50deg) scaleY(0.5) scaleX(1.1); }
-    .reindeer__leftHorn-smallPart3 {
+    .rd__horn-left-part3 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: left center;
@@ -2511,7 +2258,7 @@ body {
       -webkit-transform: rotate(40deg) scaleY(0.5) scaleX(0.8);
       -ms-transform: rotate(40deg) scaleY(0.5) scaleX(0.8);
       transform: rotate(40deg) scaleY(0.5) scaleX(0.8); }
-    .reindeer__leftHorn-smallPart4 {
+    .rd__horn-left-part4 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: left center;
@@ -2522,7 +2269,7 @@ body {
       -webkit-transform: rotate(-62deg) scaleY(0.5) scaleX(2.8);
       -ms-transform: rotate(-62deg) scaleY(0.5) scaleX(2.8);
       transform: rotate(-62deg) scaleY(0.5) scaleX(2.8); }
-  .reindeer__rightHorn {
+  .rd__horn-right {
     grid-row: 4/5;
     background-color: #2e1b14;
     z-index: -1;
@@ -2537,7 +2284,7 @@ body {
     -webkit-transform-origin: right center;
     -ms-transform-origin: right center;
     transform-origin: right center; }
-    .reindeer__rightHorn-smallPart1 {
+    .rd__horn-right-part1 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: right center;
@@ -2548,7 +2295,7 @@ body {
       -webkit-transform: rotate(60deg) scaleY(0.5);
       -ms-transform: rotate(60deg) scaleY(0.5);
       transform: rotate(60deg) scaleY(0.5); }
-    .reindeer__rightHorn-smallPart2 {
+    .rd__horn-right-part2 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: right center;
@@ -2559,7 +2306,7 @@ body {
       -webkit-transform: rotate(50deg) scaleY(0.5) scaleX(1.1);
       -ms-transform: rotate(50deg) scaleY(0.5) scaleX(1.1);
       transform: rotate(50deg) scaleY(0.5) scaleX(1.1); }
-    .reindeer__rightHorn-smallPart3 {
+    .rd__horn-right-part3 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: right center;
@@ -2570,7 +2317,7 @@ body {
       -webkit-transform: rotate(-40deg) scaleY(0.5) scaleX(0.8);
       -ms-transform: rotate(-40deg) scaleY(0.5) scaleX(0.8);
       transform: rotate(-40deg) scaleY(0.5) scaleX(0.8); }
-    .reindeer__rightHorn-smallPart4 {
+    .rd__horn-right-part4 {
       grid-row: 1/2;
       background-color: #2e1b14;
       -webkit-transform-origin: right center;
@@ -2581,3 +2328,260 @@ body {
       -webkit-transform: rotate(62deg) scaleY(0.5) scaleX(2.8);
       -ms-transform: rotate(62deg) scaleY(0.5) scaleX(2.8);
       transform: rotate(62deg) scaleY(0.5) scaleX(2.8); }
+  .rd__chin {
+    background-color: #F7EFE6;
+    grid-column: 6/12;
+    grid-row: 7/9;
+    border-radius: 60%;
+    -webkit-transform: scaleY(1.2) scaleX(0.9) translateY(-25%);
+    -ms-transform: scaleY(1.2) scaleX(0.9) translateY(-25%);
+    transform: scaleY(1.2) scaleX(0.9) translateY(-25%); }
+  .rd__mounth-left-top {
+    grid-row: 7/8;
+    border-radius: 50%;
+    -webkit-transform: scaleY(0.7) translateY(5px);
+    -ms-transform: scaleY(0.7) translateY(5px);
+    transform: scaleY(0.7) translateY(5px);
+    z-index: 5;
+    grid-column: 7/9;
+    background-color: #F7EFE6;
+    z-index: 6;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px); }
+  .rd__mounth-left-bot {
+    grid-row: 7/8;
+    border-radius: 50%;
+    -webkit-transform: scaleY(0.7) translateY(5px);
+    -ms-transform: scaleY(0.7) translateY(5px);
+    transform: scaleY(0.7) translateY(5px);
+    z-index: 5;
+    grid-column: 7/9;
+    background-color: black; }
+  .rd__mounth-mid {
+    background-color: black;
+    grid-column: 8/9;
+    grid-row: 7/8;
+    z-index: 7;
+    -webkit-transform: scale(0.3, 0.5) translateX(25px);
+    -ms-transform: scale(0.3, 0.5) translateX(25px);
+    transform: scale(0.3, 0.5) translateX(25px);
+    border-radius: 50%; }
+  .rd__mounth-right-top {
+    grid-row: 7/8;
+    border-radius: 50%;
+    -webkit-transform: scaleY(0.7) translateY(5px);
+    -ms-transform: scaleY(0.7) translateY(5px);
+    transform: scaleY(0.7) translateY(5px);
+    z-index: 5;
+    grid-column: 9/11;
+    background-color: #F7EFE6;
+    z-index: 6;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px); }
+  .rd__mounth-right-bot {
+    grid-row: 7/8;
+    border-radius: 50%;
+    -webkit-transform: scaleY(0.7) translateY(5px);
+    -ms-transform: scaleY(0.7) translateY(5px);
+    transform: scaleY(0.7) translateY(5px);
+    z-index: 5;
+    grid-column: 9/11;
+    background-color: black; }
+  .rd__chest {
+    background-color: #ECC182;
+    grid-column: 6/12;
+    grid-row: 9/14;
+    border-radius: 70% 70% 100% 100%; }
+    .rd__chest-in {
+      background-color: #d8934f;
+      grid-column: 6/12;
+      grid-row: 9/14;
+      border-radius: 70% 70% 100% 100%;
+      -webkit-transform: scale(0.7, 0.5) translateY(-30%);
+      -ms-transform: scale(0.7, 0.5) translateY(-30%);
+      transform: scale(0.7, 0.5) translateY(-30%); }
+  .rd__tail {
+    z-index: -3;
+    grid-column: 6/7;
+    grid-row: 15/18;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation: rd-tail-shake 3s linear infinite;
+    animation: rd-tail-shake 3s linear infinite;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr); }
+    .rd__tail-out {
+      grid-column: 1/2;
+      grid-row: 1/4;
+      background-color: #686262;
+      border-radius: 0 0 70% 70%; }
+    .rd__tail-in {
+      grid-column: 1/2;
+      grid-row: 1/4;
+      background-color: #d8934f;
+      border-radius: 0 0 70% 70%;
+      -webkit-transform: scale(0.55, 0.85);
+      -ms-transform: scale(0.55, 0.85);
+      transform: scale(0.55, 0.85);
+      z-index: 1; }
+  .rd__head {
+    background-color: #ECC182;
+    grid-column: 7/11;
+    grid-row: 4/8;
+    border-radius: 45%; }
+  .rd__nose {
+    border-radius: 50%;
+    grid-row: 6/7;
+    grid-column: 8/10;
+    background-color: #E2252E;
+    z-index: 2; }
+    .rd__nose-in {
+      border-radius: 50%;
+      grid-row: 6/7;
+      grid-column: 8/10;
+      background-color: rgba(255, 250, 250, 0.7);
+      z-index: 3;
+      -webkit-transform: scale(0.4) translate(10px, -5px);
+      -ms-transform: scale(0.4) translate(10px, -5px);
+      transform: scale(0.4) translate(10px, -5px); }
+  .rd__right-eye {
+    background-color: black;
+    border-radius: 45%;
+    grid-row: 5/6;
+    -webkit-animation: winking 5s ease 4s infinite;
+    animation: winking 5s ease 4s infinite;
+    grid-column: 10/11;
+    -webkit-transform: translateX(-7px) scaleX(0.6);
+    -ms-transform: translateX(-7px) scaleX(0.6);
+    transform: translateX(-7px) scaleX(0.6); }
+  .rd__left-eye {
+    background-color: black;
+    border-radius: 45%;
+    grid-row: 5/6;
+    -webkit-animation: winking 5s ease 4s infinite;
+    animation: winking 5s ease 4s infinite;
+    grid-column: 7/8;
+    -webkit-transform: translateX(7px) scaleX(0.6);
+    -ms-transform: translateX(7px) scaleX(0.6);
+    transform: translateX(7px) scaleX(0.6); }
+  .rd__right-ear {
+    background-color: #d8934f;
+    z-index: -1;
+    border-radius: 30%;
+    grid-column: 10/11;
+    grid-row: 4/5;
+    -webkit-transform: rotate(45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
+    -ms-transform: rotate(45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
+    transform: rotate(45deg) translateY(-5px) scaleX(1.2) scaleY(1.2); }
+    .rd__right-ear-in {
+      background-color: #B28048;
+      border-radius: 30%;
+      z-index: -1;
+      grid-column: 10/11;
+      grid-row: 4/5;
+      -webkit-transform: rotate(45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
+      -ms-transform: rotate(45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
+      transform: rotate(45deg) translateY(-5px) scaleX(0.7) scaleY(0.7); }
+  .rd__left-ear {
+    background-color: #d8934f;
+    z-index: -1;
+    border-radius: 30%;
+    grid-column: 7/8;
+    grid-row: 4/5;
+    -webkit-transform: rotate(-45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
+    -ms-transform: rotate(-45deg) translateY(-5px) scaleX(1.2) scaleY(1.2);
+    transform: rotate(-45deg) translateY(-5px) scaleX(1.2) scaleY(1.2); }
+    .rd__left-ear-in {
+      background-color: #B28048;
+      border-radius: 30%;
+      z-index: -1;
+      grid-column: 7/8;
+      grid-row: 4/5;
+      -webkit-transform: rotate(-45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
+      -ms-transform: rotate(-45deg) translateY(-5px) scaleX(0.7) scaleY(0.7);
+      transform: rotate(-45deg) translateY(-5px) scaleX(0.7) scaleY(0.7); }
+  .rd__arm-right {
+    grid-column: 12/13;
+    grid-row: 8/13;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-transform: rotate(-140deg);
+    -ms-transform: rotate(-140deg);
+    transform: rotate(-140deg);
+    -webkit-animation: left-arm-shake 1s ease alternate infinite;
+    animation: left-arm-shake 1s ease alternate infinite; }
+    .rd__arm-right-arm {
+      background-color: #3A2313;
+      -webkit-transform: scaleX(0.8);
+      -ms-transform: scaleX(0.8);
+      transform: scaleX(0.8);
+      border-radius: 10px;
+      grid-column: 1/2;
+      grid-row: 1/-1;
+      z-index: -1; }
+    .rd__arm-right-hoof {
+      background-color: #795526;
+      grid-column: 1/2;
+      grid-row: 5/-1;
+      z-index: 10;
+      border-radius: 20%;
+      -webkit-clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0);
+      clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0); }
+  .rd__arm-left {
+    grid-column: 5/6;
+    grid-row: 8/13;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    -webkit-transform-origin: top center;
+    -ms-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-transform: rotate(140deg);
+    -ms-transform: rotate(140deg);
+    transform: rotate(140deg);
+    -webkit-animation: right-arm-shake 1s ease alternate infinite;
+    animation: right-arm-shake 1s ease alternate infinite; }
+    .rd__arm-left-arm {
+      background-color: #3A2313;
+      -webkit-transform: scaleX(0.8);
+      -ms-transform: scaleX(0.8);
+      transform: scaleX(0.8);
+      border-radius: 10px;
+      grid-column: 1/2;
+      grid-row: 1/-1;
+      z-index: -1; }
+    .rd__arm-left-hoof {
+      background-color: #795526;
+      grid-column: 1/2;
+      grid-row: 5/-1;
+      z-index: 10;
+      border-radius: 20%;
+      -webkit-clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0);
+      clip-path: polygon(95% 0, 100% 100%, 52% 100%, 50% 50%, 48% 100%, 0 100%, 5% 0); }
+  .rd__leg-right {
+    background-color: #3A2313;
+    -webkit-transform: scaleX(0.8);
+    -ms-transform: scaleX(0.8);
+    transform: scaleX(0.8);
+    border-radius: 10px;
+    grid-column: 7/8;
+    grid-row: 17/22; }
+  .rd__leg-left {
+    background-color: #3A2313;
+    -webkit-transform: scaleX(0.8);
+    -ms-transform: scaleX(0.8);
+    transform: scaleX(0.8);
+    border-radius: 10px;
+    grid-column: 10/11;
+    grid-row: 17/22; }
